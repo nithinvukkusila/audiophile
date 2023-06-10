@@ -1,0 +1,10 @@
+@import '../../index.scss';
+
+.primary-btn {
+  padding: 15px 25px;
+  font-size: $font-size;
+  font-weight: bold;
+  text-transform: capitalize;
+  background-color: $secondary-bg-color;
+  color: $white-color;
+}

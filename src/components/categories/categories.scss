@@ -1,0 +1,55 @@
+@import "../../index.scss";
+.categories {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  .category {
+    background-color: #f1f1f1;
+    margin: 40px 0px;
+    border-radius: $border-radius;
+    padding: $common-padding;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-top: 30px;
+    &:hover {
+       .category-img {
+        img {
+        transition: transform 0.3s ease;
+        transform: scale(1.2); 
+        }
+       } 
+    }
+    .name {
+      text-transform: capitalize;
+      font-weight: bold;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+    button {
+      font-weight: bold;
+      opacity: 0.5;
+    }
+    .category-img {
+      position: absolute;
+      bottom: 42%;
+      padding-bottom: 10px;
+      background-size: cover;
+      overflow: hidden;
+      height: 100%;
+      
+      box-shadow: 0px 4px 10px transparent;
+      img {
+        max-width: 100%;
+        max-height: 100%;
+      }
+    }
+    .shadow {
+      height: 20px;
+      width: 80px;
+      filter: blur(15px);
+    }
+  }
+}
