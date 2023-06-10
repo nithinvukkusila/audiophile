@@ -1,0 +1,30 @@
+@import "../../index.scss";
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: $primary-bg-color;
+  color: $white-color;
+  padding: $common-padding;
+  align-items: center;
+  .menu-icon {
+    .hamburger-menu {
+      display: flex;
+      flex-direction: column;
+      span {
+        border: 1.5px solid white;
+        width: 15px;
+        margin: 1px auto;
+        border-radius: 8px;
+      }
+    }
+  }
+  .company-logo {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .cart {
+    img {
+        width: 25px;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+@import '../../index.scss';
+
+
+.popular-products {
+    width: 90%;
+    margin: auto;
+  .product1 {
+    background-color: $secondary-bg-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    padding: 40px 20px;
+    border-radius: $border-radius;
+    color: white;
+    .product-image {
+      img {
+        width: 60%;
+      }
+    }
+    .product-name {
+        text-transform: uppercase;
+    }
+    .about-product {
+        margin-bottom: 20px;
+    }
+  }
+  .product2 {
+    margin: 20px auto;
+    position: relative;
+    img {
+        border-radius: $border-radius;
+        width: 100%;
+    }
+    .about-product {
+        position: absolute;
+        bottom: 50%;
+        width: fit-content;
+        text-align: left;
+        left: 30px;
+    }
+  }
+  .product3 {
+    
+    img {
+        border-radius: $border-radius;
+        width: 100%;
+    }
+    .about-product {
+        background-color: #d8d8d8;
+        border-radius: $border-radius;
+        padding: 30px;
+        margin-top: 20px;
+        text-align: left;
+        .product-name {
+            text-transform: uppercase;
+        }
+    }
+  }
+}
