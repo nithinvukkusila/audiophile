@@ -1,6 +1,7 @@
-import Categories from '../components/categories/categories';
-import PopularProduct from '../components/popularProducts/PopularProduct';
-import PrimaryButton from '../components/primaryButton/PrimaryButton';
+import AboutCompany from '../../components/aboutCompany/AboutCompany';
+import Categories from '../../components/categories/categories';
+import PopularProduct from '../../components/popularProducts/PopularProduct';
+import PrimaryButton from '../../components/primaryButton/PrimaryButton';
 import './LandingPage.scss'
 const LandingPage = () => {
   return (
@@ -18,6 +19,7 @@ const LandingPage = () => {
     </div>
     <Categories/>
     <PopularProduct />
+    <AboutCompany/>
     </>
   );
 };

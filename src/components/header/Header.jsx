@@ -14,7 +14,7 @@ const Header = () => {
                 audiophile
             </div>
             <div className='cart'>
-                <img src={cart}/>
+                <img src={cart} alt="cart" />
             </div>
         </div>
     )

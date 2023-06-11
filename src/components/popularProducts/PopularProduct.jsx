@@ -9,7 +9,7 @@ const PopularProduct = () => {
     <div className="popular-products">
       <div className="product1">
         <div className="product-image" >
-           <img  src={product1} />
+           <img src={product1} alt="popular product 1" />
         </div>
         <h1 className="product-name">zx9 speaker</h1>
         <p className="about-product">
@@ -19,14 +19,14 @@ const PopularProduct = () => {
         <PrimaryButton color="white" bgColor="black" />
       </div>
       <div className="product2">
-        <img src={product2} />
+        <img src={product2} alt="popular product 2" />
         <div className="about-product">
         <h1 className="product-name">zx7 speaker</h1>
         <PrimaryButton color='black' bgColor='transparent' border="1px solid black"/>
         </div>
       </div>
       <div className="product3">
-        <img src={product3}/>
+        <img src={product3} alt="popular product 3"/>
         <div className="about-product">
           <h1 className="product-name"> yx1 earphones </h1>
           <PrimaryButton color='black' border='1px solid black' bgColor='transparent' />

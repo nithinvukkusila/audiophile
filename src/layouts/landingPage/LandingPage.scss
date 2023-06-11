@@ -1,4 +1,4 @@
-@import "../index.scss";
+@import "../../index.scss";
 .landing-page {
   background-color: $primary-bg-color;
   color: white;
@@ -8,7 +8,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url("../assets/home/mobile/image-header.jpg");
+    background-image: url("../../assets/home/mobile/image-header.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -28,15 +28,15 @@ export const allProducts = [
       "slug": "yx1-earphones",
       "name": "YX1 Wireless Earphones",
       "image": {
-        "mobile": "./assets/product-yx1-earphones/mobile/image-product.jpg",
-        "tablet": "./assets/product-yx1-earphones/tablet/image-product.jpg",
-        "desktop": "./assets/product-yx1-earphones/desktop/image-product.jpg"
+        "mobile":  require("../src/assets/product-yx1-earphones/mobile/image-product.jpg") ,
+        "tablet": require("../src/assets/product-yx1-earphones/tablet/image-product.jpg"),
+        "desktop": require("../src/assets/product-yx1-earphones/desktop/image-product.jpg")
       },
       "category": "earphones",
       "categoryImage": {
-        "mobile": "./assets/product-yx1-earphones/mobile/image-category-page-preview.jpg",
-        "tablet": "./assets/product-yx1-earphones/tablet/image-category-page-preview.jpg",
-        "desktop": "./assets/product-yx1-earphones/desktop/image-category-page-preview.jpg"
+        "mobile": require("../src/assets/product-yx1-earphones/mobile/image-category-page-preview.jpg"),
+        "tablet": require("../src/assets/product-yx1-earphones/tablet/image-category-page-preview.jpg"),
+        "desktop": require("../src/assets/product-yx1-earphones/desktop/image-category-page-preview.jpg")
       },
       "new": true,
       "price": 599,
@@ -66,9 +66,9 @@ export const allProducts = [
       ],
       "gallery": {
         "first": {
-          "mobile": "./assets/product-yx1-earphones/mobile/image-gallery-1.jpg",
-          "tablet": "./assets/product-yx1-earphones/tablet/image-gallery-1.jpg",
-          "desktop": "./assets/product-yx1-earphones/desktop/image-gallery-1.jpg"
+          "mobile":  require("../src/assets/product-yx1-earphones/mobile/image-gallery-1.jpg"),
+          "tablet": require("../src/assets/product-yx1-earphones/tablet/image-gallery-1.jpg"),
+          "desktop": require("../src/assets/product-yx1-earphones/desktop/image-gallery-1.jpg")
         },
         "second": {
           "mobile": "./assets/product-yx1-earphones/mobile/image-gallery-2.jpg",
