@@ -1,0 +1,24 @@
+@import '../../index.scss';
+
+.about-company {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    gap: 20px;
+    margin: 50px auto;
+    img {
+        width: 100%;
+        border-radius: $border-radius;
+    }
+    .quote {
+        text-transform: uppercase;
+        span {
+            color: $secondary-bg-color;
+        } 
+    }
+    .content {
+        color: $black-color;
+        opacity: 0.5;
+  }
+}

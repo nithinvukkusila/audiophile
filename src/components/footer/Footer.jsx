@@ -18,7 +18,7 @@ const Footer = () => {
      <div className='social-media'>
         { socialMedia.map((media) => {
             return <div key={media.id} className="icon">
-                <img src={media.icon} />
+                <img src={media.icon} alt='social media icons'/>
             </div>
         }) }
      </div>
